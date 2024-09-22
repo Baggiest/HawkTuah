@@ -1,0 +1,35 @@
+{
+  "name": "ccpbot",
+  "version": "1.0.0",
+  "description": "welcome aboard \r made by Degen corp LLC",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.js\"",
+    "lint": "eslint \"!(dist|node_modules)/**/*.js\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBaggieBug/CCPbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBaggieBug/CCPbot/issues"
+  },
+  "homepage": "https://github.com/MrBaggieBug/CCPbot#readme",
+  "dependencies": {
+    "@top-gg/sdk": "^3.1.5",
+    "discord.js": "^13.16.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "mongodb": "^4.16.0",
+    "pm2": "^5.3.0",
+    "topgg-autoposter": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
+  }
+}
